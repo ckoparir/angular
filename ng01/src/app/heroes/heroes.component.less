@@ -1,0 +1,63 @@
+/* HeroesComponent's private CSS styles */
+
+.selected {
+  background-color: #cfd8dc !important;
+  color: white;
+}
+
+.heroes {
+  box-sizing: border-box;
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+  & li {
+    box-sizing: border-box;
+    cursor: pointer;
+    left: 0;
+    background-color: #eee;
+    margin: 0.5em;
+    height: 1.8em;
+    border-radius: 4px;
+    &.selected:hover {
+      background-color: #bbd8dc !important;
+      color: white;
+    }
+    &:hover {
+      color: #607d8b;
+      background-color: #ddd;
+      left: 0.05em;
+    }
+  }
+  & .badge {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.8em;
+    background-color: #607d8b;
+    line-height: 1em;
+    height: 2.2em;
+    margin-right: 0.8em;
+    border-radius: 4px 0 0 4px;
+  }
+  & input {
+    box-sizing: border-box;
+    padding: 0.4em;
+    border: 0.1em solid lightgrey;
+    border-radius: 8px;
+    margin-right: -20px;
+    width: 16em;
+  }
+}
+
+h2 {
+  & span:first-child {
+    color: #607d8b;
+  }
+  &:last-child {
+    font-weight: lighter;
+    color: lightgray;
+    font-size: 0.85em;
+  }
+}

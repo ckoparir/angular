@@ -19,9 +19,10 @@ import {
   MatCardModule,
 } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, Page404Component],
+  declarations: [AppComponent, HomeComponent, AboutComponent, Page404Component, FooterComponent],
   imports: [
     DragDropModule,
     MatButtonModule,

@@ -1,0 +1,48 @@
+[class^='p-col'] {
+  margin: 10px 5px 10px 10px;
+  padding: 10px;
+  // height: 95vh;
+  // background: slateblue;
+  border-radius: 4px;
+  // color: aliceblue;
+  &:last-child {
+    margin-right: 10px;
+  }
+}
+img {
+  margin: 20px;
+}
+.p-grid {
+  height: 95vh;
+  // background-color: #dfe4e9;
+}
+.ui-card-header {
+  color: royalblue !important;
+}
+.ui-card-content {
+  color: #6e6e6e;
+}
+
+.ui-toast-message-text-content {
+  color: #6e6e6e !important;
+}
+
+button {
+  @color: transparent !important;
+  &:focus {
+    // &:active {
+    outline: none !important;
+    -moz-box-shadow: 0px 0px 5px @color;
+    -webkit-box-shadow: 0px 0px 5px @color;
+    box-shadow: 0px 0px 5px @color;
+  }
+}
+
+.align-right {
+  padding: 20px 0;
+  & > :only-child {
+    @width: 150px;
+    width: @width;
+    margin-left: calc(100% - @width);
+  }
+}

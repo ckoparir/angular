@@ -1,0 +1,36 @@
+[class^='p-col'] {
+  margin: 10px 5px 10px 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+[class^='p-col']:last-child {
+  margin-right: 10px;
+}
+img {
+  margin: 20px;
+}
+.p-grid {
+  height: 95vh;
+}
+.ui-card-header {
+  color: royalblue !important;
+}
+.ui-card-content {
+  color: #6e6e6e;
+}
+.ui-toast-message-text-content {
+  color: #6e6e6e !important;
+}
+button:focus {
+  outline: none !important;
+  -moz-box-shadow: 0px 0px 5px transparent !important;
+  -webkit-box-shadow: 0px 0px 5px transparent !important;
+  box-shadow: 0px 0px 5px transparent !important;
+}
+.align-right {
+  padding: 20px 0;
+}
+.align-right > :only-child {
+  width: 150px;
+  margin-left: calc(-50%);
+}
